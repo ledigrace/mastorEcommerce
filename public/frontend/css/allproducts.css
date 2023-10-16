@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;500;900&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f7;
+}
+
+
+
+/* search button */
+
+.container-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar {
+    float: right;
+    background-color: transparent;
+    color: #A2904E;
+    padding: 6px 10px;
+    width: 120px;
+    border: none;
+    margin-top: 1px;
+    margin-right: 8px;
+    font-family:Rajdhani, "Helvetica Neue", Helvetica;
+    font-size: 1em;
+    border-bottom: #A2904E solid 2px;
+    transition: 0.3s;
+}
+
+.searchbar::placeholder {
+    color: #A2904E;
+    font-family:Rajdhani, "Helvetica Neue", Helvetica;
+    font-size: 1em;
+    /* transition: 0.2s; */
+}
+
+.searchbar:focus {
+    width: 400px;
+    font-family:Rajdhani, "Helvetica Neue", Helvetica;
+    font-size: 1em;
+    transition: 0.3s;
+    /* Stops the input box from inheriting the styling from the inputs on the request form */
+    border-bottom: #A2904E solid 2px;
+    outline: none;
+}
+
+.btn-search {
+    cursor: pointer;
+    color: #A2904E;
+    text-decoration: none !important;
+    font-family:Rajdhani, "Helvetica Neue", Helvetica;
+    font-size: 1.5em;
+    padding-top: 5px;
+    margin-right: 40px;
+}
+
+.allproducts-section .icons-bag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.allproducts-section{
+  padding: 0px 0px;
+}
+
+.allproducts-section .icons-bag i{
+  color: #A2904E;
+  font-size: 24px;
+}
+/* end of search button */
+
+/* all-products */
+.all-products {
+  font-family: 'Urbanist', sans-serif;
+  padding: 0px 0px;
+}
+
+.all-products h1 {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 100;
+  color: #A2904E;
+}
+/* end of all products */

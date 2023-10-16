@@ -1,0 +1,8 @@
+.product-image{
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.dropdown-item.active {
+    border: 1px solid #007bff; /* Border color for the active (selected) checkboxes */
+  }
